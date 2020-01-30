@@ -1,5 +1,4 @@
-# About React Hooks
-
-As mentioned before, we'll build the course project without React Hooks for now (React Hooks are a new feature, introduced with React 16.8, I'll introduce them in-depth later).
-
-Towards the end of the course, we'll have an entire module where we convert it to use React Hooks though (after having yet another Hooks deep-dive module of course).
+# Module Introduction
+- We're going to build a Burger app.
+- We're going to use everything we've learned before
+- So get ready to use them
