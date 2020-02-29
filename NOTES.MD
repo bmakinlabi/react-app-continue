@@ -1,2 +1,2 @@
-# 158. Starting the Burger Component
+# 159. Outputting Burger Ingredients Dynamically
 - 
