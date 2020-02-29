@@ -1,3 +1,3 @@
-# 155. Starting Implementation of The Burger Builder Container
-- Using 'Aux'
-- Adding a CSS class
+# 156. Adding a Dynamic Ingredient Component
+- More information on structuring your files
+- Using the switch statement. Nothing new that I shouldn't have know at this stage of my learning. 
