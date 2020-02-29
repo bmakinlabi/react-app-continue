@@ -1,4 +1,3 @@
-# 154. Creating a Layout Component
-- Remember that containers are stateful components - they manage state.
-- Components are dumb or presentational components.
-- Using the `props.children`
+# 155. Starting Implementation of The Burger Builder Container
+- Using 'Aux'
+- Adding a CSS class
