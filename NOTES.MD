@@ -1,3 +1,5 @@
-# 156. Adding a Dynamic Ingredient Component
-- More information on structuring your files
-- Using the switch statement. Nothing new that I shouldn't have know at this stage of my learning. 
+# 157. Adding Prop Type Validation
+- Adding the `prop-type` to validate that the data we're receiving is a particular type.
+- `npm install --save prop-types`
+- You can use `prop-types` on both class-based and functional-based components.
+- Including adding `isRequired` to `PropTypes`
