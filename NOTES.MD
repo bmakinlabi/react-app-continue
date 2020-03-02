@@ -1,3 +1,4 @@
-# 160. Calculating the Ingredient Sum Dynamically
-- Learned about `reduce` in JavaScript. You can go to the MDN to learn more about this.
-- And yeah I'm changing the `const` to `let` because the value will be changing.
+# 161. Adding the Build Control Component
+- Structuring components. Creating functional components. Interesting.
+- And the structuring.
+- Then we're creating CSS and using it.
