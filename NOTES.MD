@@ -1,4 +1,2 @@
-# 161. Adding the Build Control Component
-- Structuring components. Creating functional components. Interesting.
-- And the structuring.
-- Then we're creating CSS and using it.
+# 162. Outputting Multiple Build Controls
+- Using the structured components will built in the parent component (stateful container). It's getting interesting how we can use child components in their parents. 
