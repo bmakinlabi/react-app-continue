@@ -1,3 +1,4 @@
-# 170. Adding a Custom Button Component
-- Pay attention to that `btnType`, the instructor is trying to add two types of buttons. One is either available. That's some CSS trick I've seen before.
-- Let's find out in the next lecture.
+# 171. Implementing the Button Component
+- Of course, it's clear now. Pay attention to the CSS and what was done.
+- Again, we reused a function here. Pay attention to that too. You don't always have to write a function from scratch.
+- Cool... this is getting interesting. 
