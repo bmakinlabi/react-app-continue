@@ -1,2 +1,3 @@
-# 169. Implementing the Backdrop Component
-- Learned a lot in this stage creating a little dark background when we press order. Wow. this course is getting interesting. And you can see that we're calling a function on the modal component. 
+# 170. Adding a Custom Button Component
+- Pay attention to that `btnType`, the instructor is trying to add two types of buttons. One is either available. That's some CSS trick I've seen before.
+- Let's find out in the next lecture.
