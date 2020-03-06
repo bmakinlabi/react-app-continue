@@ -1,4 +1,3 @@
-# 179. Reusing the Backdrop
-- Again we came across something we've talked about before. By using it like this `<Backdrop show/>` show automatically becomes `true` and if it's not present at all like `<Backdrop />` it'll become false because `show` isn't present. 
-- We changed a functional component to class-based component here because we have to manage state there in it.
-- Remember what we learned about joining classes (using selectors) `[class1 class2]`
+# 180. Adding a Sidedrawer Toggle Button
+- The author strongly advised that students use `prevState` when updating the state if we depend on what the previous state is. Because of the asychronous nature of JS, we don't know what the prevState is. It could have been controlled by others in the list.
+- So you should probably use this if more than one functions or properties are accessing the same state and you want to change that state based on what it is right now. Something to learn more about.
