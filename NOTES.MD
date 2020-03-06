@@ -1,3 +1,3 @@
-# 181. Adding a Hamburger Icon
-- Learnt a bit of CSS which I should know already.
-- Using this to create a menu with three lines like you normally see around.
+# 182. Improving the App - Introduction
+- Instructor introduction to how we may improve the app.
+- We didn't code. We'll talk about these improvements in the next lectures. 
