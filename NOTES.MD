@@ -1,3 +1,3 @@
-# 180. Adding a Sidedrawer Toggle Button
-- The author strongly advised that students use `prevState` when updating the state if we depend on what the previous state is. Because of the asychronous nature of JS, we don't know what the prevState is. It could have been controlled by others in the list.
-- So you should probably use this if more than one functions or properties are accessing the same state and you want to change that state based on what it is right now. Something to learn more about.
+# 181. Adding a Hamburger Icon
+- Learnt a bit of CSS which I should know already.
+- Using this to create a menu with three lines like you normally see around.
