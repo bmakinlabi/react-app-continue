@@ -1,4 +1,4 @@
-# 185. Using Component Lifecycle Methods
-- We didn't use much Lifecycle hooks.
-- It's not that you'll see it everywhere in every React code you see out there. But there're just a few places where you might use them.
-- We'll talk more about it later. 
+# 186. Changing the Folder Structure
+- We move the `Layout` folder which contains a class-based component to the container folder. 
+- You could also move the `Layout` folder which contains the class-based component into the Higher order component folder (hoc) because it's also a high order component itself. The HOC way is the instructor's favorite. Both are cool though. 
+- We didn't do much in this lecture. Just changing a bunch of folders. 
