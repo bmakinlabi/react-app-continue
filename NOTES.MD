@@ -1,3 +1,2 @@
-# 203. Setting a Default Global Configuration for Axios
-- We can set the base URL for all our requests.
-- Learned about setting the default configuration for axios.
+# 204. Creating and Using Axios Instances
+- In this lecture, I learned how to use a separate default axios settings for different files. For example, if I want a different baseURL for another file or folder. This is great.
