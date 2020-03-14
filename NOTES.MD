@@ -1,7 +1,3 @@
-# Removing Interceptors
-- No code here. Here's what the instructor provided:
-You learned how to add an interceptor, getting rid of one is also easy. Simply store the reference to the interceptor in a variable and call `eject`  with that reference as an argument, to remove it (more info: https://github.com/axios/axios#interceptors):
-```js
-    var myInterceptor = axios.interceptors.request.use(function () {/*...*/});
-    axios.interceptors.request.eject(myInterceptor);
-```
+# 203. Setting a Default Global Configuration for Axios
+- We can set the base URL for all our requests.
+- Learned about setting the default configuration for axios.
