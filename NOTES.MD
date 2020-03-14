@@ -1,4 +1,3 @@
-# 193. Rendering Fetched Data to the Screen
-- The first thing I learned about rendering data from an Http request
-- You should also remember how using `props` works between parent and child component.
-- Using `map` and of course it looks like it's something I'll have to get used to. 
+# 194. Transforming Data
+- In this case we're reducing the number of post we're getting. We're not fetching all the amount of posts available. `slice` is key.
+- We also added `author` to the data received which wasn't in the initial data. Yes, we can add it. 
