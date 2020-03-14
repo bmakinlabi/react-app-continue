@@ -1,4 +1,5 @@
-# 195. Making a Post Selectable
-- Wow. We're now changing things around on the post.
-- And now the full power of ReactJS is starting to show as we move along in the course.
-- Pay attention again to how `props` is being passed around. 
+# 196. Fetching Data on Update (without Creating Infinite Loops)
+- A clear diagram showing different component lifecycle hooks and how and when to use each one. 
+- Wow, now I learned how things quickly change. For example, when I click the post, I see `Loading` for some seconds before I see the post.
+- Note that if `componentDidUpdate()` can send an infinite loop of requests which means it'll continue to request data and again and again. It'll never stop. You have to add a check.
+- Always do checks (in this case an `if` statement) and check `Network` in the browser to ensure that `componentDidUpdate()` isn't making continous requests (an infinite loop)
