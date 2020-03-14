@@ -1,4 +1,7 @@
-# 201. Adding Interceptors to Execute Code Globally
-- Quick introduction to Axios Interceptors
-- How to use it to handle execute error code globally. You can use it to see where the error code is globally
-- But the most common use case is to configure some settings. We'll learn about those settings later as we proceed.
+# Removing Interceptors
+- No code here. Here's what the instructor provided:
+You learned how to add an interceptor, getting rid of one is also easy. Simply store the reference to the interceptor in a variable and call `eject`  with that reference as an argument, to remove it (more info: https://github.com/axios/axios#interceptors):
+```js
+    var myInterceptor = axios.interceptors.request.use(function () {/*...*/});
+    axios.interceptors.request.eject(myInterceptor);
+```
