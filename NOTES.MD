@@ -1,2 +1,2 @@
-# 204. Creating and Using Axios Instances
-- In this lecture, I learned how to use a separate default axios settings for different files. For example, if I want a different baseURL for another file or folder. This is great.
+# 205. Wrap Up
+- You've learned about sending http request in React. Of course using axios. And doing more. 
