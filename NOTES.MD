@@ -1,12 +1,6 @@
-# 209. Creating the Firebase Project
-- https://firebase.google.com/
-- It's free for what we want to do. There're paid plans though. Paid plans remove some limits.
-- `Go to Console` on the website. 
-- `Create a project`
-- Give your project a name and continue
-- Click `Develop` => `Database`
-- Make sure you choose `Realtime Database`
-- The database `read` and `write` rules should both be set to `true`
-- Copy the URL (or endpoint as the instructor calls it)
-- You can start sending Http request to it.
-- For me, it's https://react-my-burger-6c464.firebaseio.com/
+# 210. Creating the Axios Instance
+- Let's go to the Burger app project
+- `npm install --save axios`
+- Then restart the development server:
+- `npm start`
+- We created an axios instance
