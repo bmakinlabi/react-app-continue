@@ -1,10 +1,6 @@
-# 212. Displaying a Spinner while Sending a Request
-- We want to create a spinner.
-- We can find some nice spinners on the internet.
-- Search Google for `css spinners`
-- This site is nice: https://projects.lukehaas.me/css-loaders/
-- We're picking one. 
-- You can edit the background color and the other if you want.
-- Select one and choose the CSS and HTML code and paste them in the appropriate places.
-- It's a bit complex but easier to understand if we're tracking changes and organizing our thoughts.
-- I learned about `nextProps.children` and `this.props.children`
+# 213. Handling Errors
+- Handling errors using an higher order component. YOu learned about this earlierr and it's useful now.
+- When there's an error, you display the error in the UI using this perfect method.
+- And it's really cool to know this.
+- What's being displayed changes to the error message on the screen. This is something you should keep in mind as you continue to learn.
+- It's being emphasized to me myself that going back to these lectures is the only way to make them stick. I don't see how I can prevent being forgetful when I come across something this complex.
