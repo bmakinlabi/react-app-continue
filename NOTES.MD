@@ -1,3 +1,3 @@
-# 240. Redirecting Requests
-- Using Redirect component to redirect from one url to another. The uncommented option changes the url in the browser box.
-- The commented out option doesn't change the address in the browser box, but it still shows the content being redirected to.
+# 241. Conditional Redirects
+- Using Redirect to go to another page after an action is done or a condition is met. 
+- I was redirected immediately and didn't even notice it that much. Wow.
