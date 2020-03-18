@@ -8,30 +8,41 @@ const withErrorHandler = (WrappedComponent, axios) => {
         constructor(props) {
             super(props);
             this.state = {
-                error: null
+                error: null,
             }
+            // I'm assigning it a variable name so that I can unmount these changes.
+            /** 
+             * Also note that the instructor didn't use constructor at all. He used componentWillMount() which hass been deprecated.
+             * To get the same functionality, I'm using the constructor as recommended by the instructor. 
+            */
 
-            axios.interceptors.request.use(req => {
+            this.reqInterceptor = axios.interceptors.request.use(req => {
                 this.setState({error: null});
                 return req;
-            })
-            axios.interceptors.response.use(res => res, error => {
+            });
+            this.resInterceptor = axios.interceptors.response.use(res => res, error => {
                 this.setState({error: error});
             });
-
         }
 
         // I moved the code into constructor because the is showing the spinner. That's due to componentDidMount being called first. We should have used ComponentWillMount but it's been deprecated. Using the constructor is the best option.
-        componentDidMount() {
-            /*
-            axios.interceptors.request.use(req => {
-                this.setState({error: null});
-                return req;
-            })
-            axios.interceptors.response.use(res => res, error => {
-                this.setState({error: error});
-            });
-            */
+
+        // componentDidMount() {
+        //     /*
+        //     axios.interceptors.request.use(req => {
+        //         this.setState({error: null});
+        //         return req;
+        //     })
+        //     axios.interceptors.response.use(res => res, error => {
+        //         this.setState({error: error});
+        //     });
+        //     */
+        // }
+
+        componentWillUnmount() {
+            console.log('Will Unmount', this.reqInterceptor, this.resInterceptor);
+            axios.interceptors.request.eject(this.reqInterceptor);
+            axios.interceptors.response.eject(this.resInterceptor);
         }
 
         errorConfirmedHandler = () => {
