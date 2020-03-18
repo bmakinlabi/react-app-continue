@@ -1,2 +1,4 @@
-# 237. Additional Information Regarding Active Links
-- The instructor was just talking about `NavLinks` and the active styling it gives the UI as in this application case. Nothing much really about what he's talking about. 
+# 238. Understanding Nested Routes
+- How to create nested Routes. Wow this is really interesting. 
+- Removed `exact` from the `/` route to enable its child `FullPost` route load. 
+- This is how we'll create true nested routes
