@@ -1,11 +1,5 @@
-# 220. Setting Up the Router Package
-- `npm install --save react-router react-router-dom`
-- You need those two packages. 
-- This package wasn't created by Facebook, but it's the defacto routing package for React.
-- Note that you'll need to quit by pressing `control + C` before installing.
-- And after installation, you'll need to run `npm + start`
-- Now, you need to be able to read routes. You can do that inside `App.js` or `index.js` The author is using `App.js` and that may become what I use too. 
-- We've wrapped it.
-- Now we can even move `FullPost` and `NewPost` folders into the `Blog` folder which is a contanier.
-- We ended this lecture without starting using routing.
-- But we'll start doing that in the next lecture. The instructor is going to something nice. Let's look forward to it.
+# react-router vs react-router-dom
+
+We installed both react-router  and react-router-dom . Technically, only react-router-dom  is required for web development. It wraps react-router  and therefore uses it as a dependency. 
+
+We don't need to install react-router  on our own for it to work. You can omit this installation step, I left it in there for historic reasons and because I like to emphasize that the main package is named react-router. If you ever search for assistance, you probably want to search for "react router" - that's the name of the package.
