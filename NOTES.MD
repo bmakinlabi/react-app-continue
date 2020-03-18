@@ -1,4 +1,6 @@
-# 225. Switching Between Pages
-- Now we've added another route which is cool. We can switch between them.
-- But there's a problem, the page is reloading. We want to prevent that. We just want it to re-render.
-- We'll take care of that in the next lecture. 
+# 226. Using Links to Switch Pages
+- Instead of using the `<a>` tag for links, use `Link`, which is very cool. It prevents it from reloading.
+- Wow I can see additional options that come with `Link` which I can use.
+- Now, there's no reloading. We're moving freely between the links or pages.
+- React is re-rendering.
+- It's called the Link component. 
