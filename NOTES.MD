@@ -1,3 +1,4 @@
-# 224. Rendering Components for Routes
-- I used the router to render my JSX code. Wow. now it's returning just the posts on the home page. This is looking cool to me. 
-- I had issues with the code and realized that it may be the header of the axios which I needed to add. I've left that and continuing now. 
+# 225. Switching Between Pages
+- Now we've added another route which is cool. We can switch between them.
+- But there's a problem, the page is reloading. We want to prevent that. We just want it to re-render.
+- We'll take care of that in the next lecture. 
