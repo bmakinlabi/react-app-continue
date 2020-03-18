@@ -1,4 +1,6 @@
-# 228. The "withRouter" HOC & Route Props
-- How to get those router props down to their children components
-- We didn't save it so you may have watch this video to be reminded of how it works again. 
-- The author revealed three ways to get those route props as we would normally do on a normal component. 
+# 229. Absolute vs Relative Paths
+- The difference between absolute and relative paths
+- Example of absolute path: `example.com/new-post` and `example.com/my-new-page`
+- Example of relative path: `example.com/new-post/submit-the-post` and `example.com/live-score/live-matches`
+- You can do this to get the relative path: 
+`pathname: this.props.match.url + '/new-post',`
