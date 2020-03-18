@@ -1,5 +1,11 @@
-# 219. Setting Up Links
-- Set up the links here. Didn't do too much.
-- The two links are still going to the same page we've been.
-- Nothing really special. 
-- I'm understanding it. 
+# 220. Setting Up the Router Package
+- `npm install --save react-router react-router-dom`
+- You need those two packages. 
+- This package wasn't created by Facebook, but it's the defacto routing package for React.
+- Note that you'll need to quit by pressing `control + C` before installing.
+- And after installation, you'll need to run `npm + start`
+- Now, you need to be able to read routes. You can do that inside `App.js` or `index.js` The author is using `App.js` and that may become what I use too. 
+- We've wrapped it.
+- Now we can even move `FullPost` and `NewPost` folders into the `Blog` folder which is a contanier.
+- We ended this lecture without starting using routing.
+- But we'll start doing that in the next lecture. The instructor is going to something nice. Let's look forward to it.
