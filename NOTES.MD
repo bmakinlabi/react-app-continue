@@ -1,6 +1,3 @@
-# 223. Setting Up and Rendering Routes
-- we're importing `Route`
-- When you put the `path="/"` there, and you see a link on the navigation, React may show the same content of the home page there too. To avoid this, just use `exact` on the Route. It means you want exactly the path specified. 
-- Note that you can repeat the same path on different routes. React will render both of them together on the page.
-- You can use as many Routes on the same page as you want.  
-- We're going to load the component we want to load in the next lecture.  
+# 224. Rendering Components for Routes
+- I used the router to render my JSX code. Wow. now it's returning just the posts on the home page. This is looking cool to me. 
+- I had issues with the code and realized that it may be the header of the axios which I needed to add. I've left that and continuing now. 
