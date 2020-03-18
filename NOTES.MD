@@ -1,3 +1,2 @@
-# 236. Navigating Programmatically
-- Another way of going to a particular post.
-- We learned an alternative to using `<Link>` to navigate in this case. Wow, this sounds cool. 
+# 237. Additional Information Regarding Active Links
+- The instructor was just talking about `NavLinks` and the active styling it gives the UI as in this application case. Nothing much really about what he's talking about. 
