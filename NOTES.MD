@@ -1,6 +1,3 @@
-# 226. Using Links to Switch Pages
-- Instead of using the `<a>` tag for links, use `Link`, which is very cool. It prevents it from reloading.
-- Wow I can see additional options that come with `Link` which I can use.
-- Now, there's no reloading. We're moving freely between the links or pages.
-- React is re-rendering.
-- It's called the Link component. 
+# 227. Using Routing-Related Props
+-  We saw the numerous props and values, and methods that are available to us via the via route or link. We just console.log it.
+- This lecture is a MUST watch to see all the more props available to us through the routing. Wow. There are lots of them. 
