@@ -1,2 +1,4 @@
-# 250. Module Introduction
-- We want to add a checkout page to our Burger app. So that we have that routing thing. 
+# 251. Building the Checkout Container
+- Back to the Burger app
+- We created a new component.  
+- In the next lecture, we'll set up a route for it. 
