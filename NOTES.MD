@@ -1,3 +1,4 @@
-# 258. Adding an Orders Page
-- Creating child components and add Route to where you expect it to display.
-- Simple component creation process. So nice. 
+# 259. Implementing Navigation Links
+- More information on using NavLink
+- More on using `exact`
+- Both navigation are active when you use `exact` this way. It's really cool.
