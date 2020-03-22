@@ -1,2 +1,3 @@
-# 277. Handling Overall Form Validity
-- Now we've disabled the button if the form isn't valid, which means the each box hasn't been filled.
+# 278. Working on an Error
+- When we select one option on the options, it returns an error. And that's because we didn't add validation to it.
+- We fixed it this way. 
