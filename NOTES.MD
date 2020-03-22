@@ -1,12 +1,4 @@
-# 284. Understanding the Redux Flow
-- The component doesn't manipulate the app state directly when using Redux. It doesn't manipulate the central store (Redux)
-- The component dispatches Actions (what to do maybe like reduce ingredients or something of that sort).
-- The Actions reaches Reducers.
-- In the end, you'll have one Reducer, which directly connects to the store.
-- The Reducer can check the type of the Action, then we'll define the code for that type of action in the Reducer.
-- Well, the reducer is pure function which receives the action and the old state. 
-- The reducer has to execute synchronous code only. No asynchronous code. No side effects. No Http requests. 
-- How do we get the updated state into our components then?
-- For that, we use Subscription model.
-- The store triggers all Subscriptions whenever the state changes. Whenever the state is updated in the store. 
-- Of course, our component can subscribe to store (state) updates. They receive it automatically.
+# 285. Setting Up Reducer and Store
+- Initial commit
+- Downloaded the resource and run `npm install`
+- 
