@@ -1,4 +1,3 @@
-# 259. Implementing Navigation Links
-- More information on using NavLink
-- More on using `exact`
-- Both navigation are active when you use `exact` this way. It's really cool.
+# 260. Fetching Orders
+- Using our created `withErrorHandler` component to handle errors. That looks cool.
+- And now we're fetching orders.
