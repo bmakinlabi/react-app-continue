@@ -1,4 +1,4 @@
-# 267. Setting Up a JS Config for the Form
-- We're configuring our form. We're using something nice here.
-- I can see the props flowing from the parent to children.
-- Still more to learn in the next lecture.
+# 268. Dynamically Create Inputs based on JS Config
+- Wow, we added the form. We can create as many different forms as we want using this technique.
+- It seems cool.
+- But we're not done though. There's still a lot to do. 
