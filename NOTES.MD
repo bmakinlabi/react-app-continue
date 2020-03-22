@@ -1,3 +1,2 @@
-# 273. Fixing a Common Validation Gotcha
-- Oh the fix looks really cool. It's a technique to keep in mind.
-- But this shows how much I've improved my knowledge of JavaScript because I can just do something even cooler than this and it'll be fun. 
+# 274. Adding Validation Feedback
+- We are checking if something has input and if it needs input. If it needs input, then it's shows red. Meaning that the user should type something. 
