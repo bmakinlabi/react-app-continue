@@ -1,4 +1,15 @@
-# 279. Fixing a Bug
-- The instructor noticed a bug in the `deliveryMethod` of the `ContactData.js`. If we don't switch, the `value` will always be an empty string.
-- So the solution is to enter `Cheapest` or `Fastest` in the `value` that way it won't be an empty string. Wow, I'm getting better with this.
-- The instructor would fix it later in the course. 
+# Useful Resources & Links
+
+    Validate.js (you may import its functionality into your React projects): https://validatejs.org/
+    Get more ideas about potential validation approaches: https://react.rocks/tag/Validation
+
+Alternatives to the manual approach taken in this course:
+
+    react-validation package: https://www.npmjs.com/package/react-validation
+    formsy-react package: https://github.com/christianalfoni/formsy-react
+
+Resources for this lecture
+
+    forms--01-basic-form.zip
+    forms--02-form-validation.zip
+    forms--03-finished.zip
