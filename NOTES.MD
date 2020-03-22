@@ -1,8 +1,5 @@
-# 285. Setting Up Reducer and Store
-- Time to install Redux:
-- `npm install --save redux`
-- `node redux-basics.js`
-- Creating an initial state.
-- Getting state
-- Creating a store.
-- Wow. Just some of the basics of Redux. This is getting interesting already.
+# 286. Dispatching Actions
+- Use all uppercase for `type` inside `dispatch`. It's the convention.
+- Just like in normal react, never change your state directly. You must copy it first. 
+- Dispatching action
+- Wow. This is getting interesting. I just learned about dispatching actions. 
