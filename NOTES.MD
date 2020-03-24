@@ -1,4 +1,3 @@
-# 273. Module Introduction
-- Determining which data to store in Redux and which not to.
-- This video clearly explains where and when Redux might be needed.
-- 
+# 274. Installing Redux and React Redux
+- `npm install --save redux react-redux`
+- Setting up redux and its state. Everything else we need to start.
