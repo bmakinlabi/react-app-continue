@@ -1,4 +1,21 @@
-# 270. Combining Local UI State and Redux
-- The last commit was just made for the assignment. Couldn't find the starter for that assignment.
-- But let's get right into the next course which is this one.
-- Here's a perfect example of managing a local UI state. You don't always have to use Redux or Database for everything. 
+# Useful Resources & Links
+
+    Redux Docs: https://redux.js.org/
+
+    Core Concepts: https://redux.js.org/introduction/core-concepts
+
+    Actions: https://redux.js.org/basics/actions
+
+    Reducers: https://redux.js.org/basics/reducers
+
+    Redux FAQs: https://redux.js.org/faq
+
+Resources for this lecture
+
+    redux--01-start.zip
+    redux--02-basic-flow.zip
+    redux--03-react-redux.zip
+    redux--04-improved-setup.zip
+    redux--05-finished.zip
+    redux--assignment-1-solution.zip
+    redux--assignment-2-solution.zip
