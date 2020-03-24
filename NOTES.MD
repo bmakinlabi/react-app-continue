@@ -1,4 +1,3 @@
-# 279. Redux & UI State
-- The `BuildControl.js` was touched some a long time ago. I had to put the change back because I could see a mistake that wasn't part of the instructor screen.
-- Now our order button is working just fine.
-- This is becoming amazing. 
+# 280. Adjusting Checkout and Contact Data
+- Nothing is getting dispatched here. We're only using `mapStateToProps` and it's cool of course. No dispatch in this case.
+- Wow... I can see the power of Redux at work in this lecture.
