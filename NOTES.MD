@@ -1,4 +1,4 @@
-# 277. Connecting the Burger Builder Container to our Store
-- Wow... You can see how we're now making our burger app use redux.
-- We just started.
-- There're more changes to make before the app starts working perfectly.
+# 278. Working on the Total Price Calculation
+- The price is now updating.
+- You can see how we move the redux state to where it's needed.
+- That was so cool.
