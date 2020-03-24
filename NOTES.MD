@@ -1,4 +1,4 @@
-# 278. Working on the Total Price Calculation
-- The price is now updating.
-- You can see how we move the redux state to where it's needed.
-- That was so cool.
+# 279. Redux & UI State
+- The `BuildControl.js` was touched some a long time ago. I had to put the change back because I could see a mistake that wasn't part of the instructor screen.
+- Now our order button is working just fine.
+- This is becoming amazing. 
