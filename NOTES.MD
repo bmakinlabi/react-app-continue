@@ -1,7 +1,3 @@
-# Useful Resources & Links
-
-Find the source code for this module attached to this lecture.
-Resources for this lecture
-
-    redux-burger--01-basic-setup.zip
-    redux-burger--02-finished.zip
+# 283. Module Introduction
+- Time to learn advanced redux and learn how we may run asynchronous code.
+- Unleash the full Redux power. 
