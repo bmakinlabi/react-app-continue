@@ -1,3 +1,2 @@
-# 274. Installing Redux and React Redux
-- `npm install --save redux react-redux`
-- Setting up redux and its state. Everything else we need to start.
+# 275. Basic Redux Setup
+- Connecting our react app with redux. A lot of basic work going on here. 
