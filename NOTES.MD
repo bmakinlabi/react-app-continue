@@ -1,4 +1,7 @@
-# 281. Wrap Up
-- Questions you should ask yourself before using Redux
-- We'll see how to handle asynchronous code with Redux in the next lecture.
-- I can feel that I'm going to love it. 
+# Useful Resources & Links
+
+Find the source code for this module attached to this lecture.
+Resources for this lecture
+
+    redux-burger--01-basic-setup.zip
+    redux-burger--02-finished.zip
