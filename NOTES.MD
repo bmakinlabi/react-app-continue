@@ -1,17 +1,3 @@
-# 285. Using the Redux Devtools
-- Go to Google and search for `Redux DevTools`
-- Look for the Google Chrome Extension. That's what you need.
-- Install it.
-- If you want to learn about this extension you can go to the Redux DevTools GitHub repository. https://github.com/zalmoxisus/redux-devtools-extension
-- Click on the icon to open it.
-- Go to `Use the Advanced store setup' on the GitHub page to set up Redux. 
-- As long as you follow these instructions, you should be fine
-- Watch this video again or follow the instruction as laid out in the GitHub page.
-- Note that we're using this Redux Devtools to see more information about our ... , which the normal React Dev tool isn't giving us.
-- Now you should be able to see the `@@INIT` and watch the state, action and more below it. More to learn about this tool.
-- As you make an action, you should see the changes there in the Redux DevTools.
-- You can go back to each change in the Inspector. That's like checking the action and seeing the changes it made.
-- The history is recorded for you to see.
-- This is really amazing.
-- You can learn more in the documentation.
-- This is really a good tool to have. 
+# 286. Executing Asynchronous Code - Introduction
+- YOu can run asynchronous code isnide your switch state in the reducer. JavaScript and React just doesn't work that way.
+- Node code written here. 
