@@ -1,5 +1,8 @@
-# 290. Restructuring Actions 
-- We can split our `action.js` file into different files for each action if we want to to make project stay organized. This is especially important for big projects.
-- You see we've splitted our actionTypes into two files.
-- We also use the advanced JS `export` that let us import and export fom a single file.
-- Splitting these files like this is what you want to do for bigger projects.
+# 291. Where to Put Data Transforming Logic?
+- The only place we can execute async code is inside our action creators.
+- Where to put logic code that really update the state:
+- Action creators ------------------------------ Reducer
+- Can run Async doe -------------------------- Pure, sync Code only!
+- Should prepare the staet update too much ------------- Core Redux concept: reducers update the state.
+- Update the state inside the reducer. That is where you should put core data.
+- Be consistent with which one you choose. 
