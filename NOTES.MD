@@ -1,5 +1,7 @@
-# 295. An Alternative Folder Structure
-- There several different folder structures
-- You could create a store folder in every container. You could go that route too if you have a lot of containers.
-- Each container folder has its store which has its actions and reducer folders too. You then combine everything together in your index.js file.
-- You could also create a global store and has its own actions and reducer folders. 
+# 296. Diving Much Deeper
+- https://redux.js.org/
+- Learn more about Redux on that page
+- Go to the site to learn more
+- Instructor ask about going to the https://redux.js.org/recipes/structuring-reducers/immutable-update-patterns page.
+- To be honest I should go to the documentation for almost everything I'm learning after watching the videos.
+- Yeah, that page looks amazingnly nice. 
