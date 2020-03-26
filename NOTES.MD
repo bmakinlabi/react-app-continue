@@ -1,5 +1,4 @@
-# 292. Using Action Creators and Get State 
-- If you want to access the current state before returning anything within your async code, you can do that.
-- You'll need to use the `getState()` method.
-- But don't use this feature too much. Instead do it normally and pass it as an argument. 
-- Instructor doesn't like using `getState()` this way. 
+# 293. Using Utility Functions
+- We're using a utility function to make things easier.
+- And also, I wrote the default for those switch statements to reduce the light warnings that were being posted on the console.
+- We're making our reducer a little bit leaner. 
