@@ -1,2 +1,2 @@
-# 309. The Order Reducer 
-- Not done yet. Still working on it. 
+# 310. Working on Order Actions
+- Working it up. Following the instructor. 
