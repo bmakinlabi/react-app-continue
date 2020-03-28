@@ -1,2 +1,7 @@
-# 299. Module Introduction
-- We're going to use all those advanced redux we learned in the last course module. 
+# 300. Installing the Redux Devtools
+- Going back to the Burger app.
+- Going to Redux DevTools Extension GitHub page.
+- Use the basic setup for the tool. Instructions found on its GitHub page.
+- Of course, as usual open the Redux DevTools in the Chrome browser.
+- Open it by clicking `>>` and then open Redux.
+ 
