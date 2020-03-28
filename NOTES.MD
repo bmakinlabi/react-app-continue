@@ -1,7 +1,4 @@
-# 300. Installing the Redux Devtools
-- Going back to the Burger app.
-- Going to Redux DevTools Extension GitHub page.
-- Use the basic setup for the tool. Instructions found on its GitHub page.
-- Of course, as usual open the Redux DevTools in the Chrome browser.
-- Open it by clicking `>>` and then open Redux.
- 
+# 301. Preparing the Folder Structure
+- The instructor is restructuring the folder structure here.
+- He wants to use actionCreators. In fact, he wants to apply what we learned in the last module to this burger app.
+- So, he's rearranging the folder and files to keep things organized. He renamed files, created new folders, and even new files.
