@@ -1,3 +1,2 @@
-# 307. Adding Order Actions
-- Wow, we're doing `axios.post` here. And it's cool.
-- The instructor continues in the next lecture.
+# 308. Connecting Contact Data Container & Actions
+- Still, continuing right now. More work to do.
