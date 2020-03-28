@@ -1,4 +1,3 @@
-# 301. Preparing the Folder Structure
-- The instructor is restructuring the folder structure here.
-- He wants to use actionCreators. In fact, he wants to apply what we learned in the last module to this burger app.
-- So, he's rearranging the folder and files to keep things organized. He renamed files, created new folders, and even new files.
+# 302. Creating Action Creators
+- When importing your actionCreators, you can even omit `index` from the last, in the import. And it'll automatically import the index. It always recognize the `index.js` file first.
+- Now, our burger app is working as normal again. 
