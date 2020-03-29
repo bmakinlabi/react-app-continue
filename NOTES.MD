@@ -1,4 +1,7 @@
-# 319. Wrap up
-- We now have advanced Redux usage here.
-- This is the kind of module you should re-study many times.
-- This is cool. 
+# Useful Resources & Links
+
+Find the source code for this module attached to this lecture.
+Resources for this lecture
+
+    redux-adv-burger--01-async-action-ingredients.zip
+    redux-adv-burger--02-finished.zip
