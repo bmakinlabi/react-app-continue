@@ -1,2 +1,3 @@
-# 316. Checking our Implemented Functionalities
-- No code... Just took a look at the app to see if it's working correctly. 
+# 317. Refactoring Reducers 
+- We use an utility function to reduce our code.
+- We've done this before and doing it here again. 
