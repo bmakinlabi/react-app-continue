@@ -1,2 +1,2 @@
-# 313. Handling Purchases & Updating the UI 
-- Working well... Just trace if there's anything you don't understand. 
+# 314. Resetting the Price after Purchases
+- Resetting the price once we submit. 
