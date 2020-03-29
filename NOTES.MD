@@ -1,2 +1,2 @@
-# 315. Fetching Orders (via Redux) 
-- It's working. We're fetching orders from the server. 
+# 316. Checking our Implemented Functionalities
+- No code... Just took a look at the app to see if it's working correctly. 
