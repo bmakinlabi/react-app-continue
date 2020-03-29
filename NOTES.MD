@@ -1,3 +1,3 @@
-# 317. Refactoring Reducers 
-- We use an utility function to reduce our code.
-- We've done this before and doing it here again. 
+# 318. Refactoring Reducers Continued 
+- Wow... we continue to refactor.
+- You can see that I corrected `purchase` to `purchased` on the `reducer.order.js` file. Something wasn't working. That was the reason why I made the correction. 
