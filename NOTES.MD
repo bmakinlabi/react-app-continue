@@ -1,2 +1,2 @@
-# 311. Redirect to Improve UX
-- It's working now. If we refresh. It works. And that's lovely. 
+# 312. Combining Reducers 
+- It's working. We're fixing some things. It's becoming pretty amazing. I love it. 
