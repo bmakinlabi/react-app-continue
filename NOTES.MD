@@ -1,2 +1,13 @@
-# 325. Adding Actions 
-- The form is now working. Although we're not done with it. 
+# 326. Getting a Token from the Backend
+- Firebase gives us authentication out of the box.
+- This course isn't a full course on authentication. Just want to show you how it works in React.
+- If you want to know how to build an API in your language of choice, you'll have to go and look for a course on that.
+- We set up Firebase for Authentication. That was easy. You can find it right there in the dashboard or Project Overview as Firebase calls it.
+- Search for `firebase rest auth` on Google.
+- This URL: https://firebase.google.com/docs/reference/rest/auth
+- There are different uses and cases. You should look at the right side of the screen on that page to see how things work. 
+- Wow, this took a long time but I didn't give up. So nice that I didn't.
+- I got it to work. I must have made a mistake with the URL or something. Or maybe I wasn't the following the instructor well enough.
+- I should read more about Authentication and why they're needed more. 
+- I'm adding that to my Evernote must do before I can call myself an experienced developer.
+- I feel so happy right now.
