@@ -1,7 +1,5 @@
-# 338. Ensuring App Security
-- For security reasons, it's better to find a better solution. An alternative to storing tokens in the `localStorage`
-- Someone might steal your token and use it to login in into your account
-- The best idea though is to store get a refreshToken and store it somewhere. Firebase provides a `refreshToken`
-- You can use your refreshToken (send it to Firebase), and you'll get an idToken. That's better. 
-- The instructor isn't using that too because it's not perfect. He just wanted to bring it to my attention. 
-- No code here. It's best I learn about the best security for your website or web applications. I should store that in my to-do list. 
+# 339. Guarding Routes
+- Wow, the pages we want to show depending on whether the user is authenticated or not.
+- And if they're not authenticated and visit an unknown route, they're simply redirected to the homepage. The same thing happens if they're authenticated and visits an unknown route. Wow. This is cool.
+**Because this is all JavaScript, people can see change the way your app works so that they can see those pages. That's why we have protection on the server.**
+- The frontend is about providing the user experience. 
