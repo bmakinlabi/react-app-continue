@@ -1,7 +1,14 @@
-# 335. Redirecting the User to the Checkout Page
-- Wow. The instructor did a lot in this lecture. This is a key lecture.
-- What he did here is that if we're building a burger and we're asked to sign in, after signin in, we'll still see the burger we were building.
-- Of course, this required some code around and a lot of thinking.
-- This is the lecture where I finally realized that knowing your code and following where to change is super important.
-- You have to study your code very carefully and understands what it does. 
-- Wow, this lecture is opening my eyes to the wonders of programming. 
+# 336. Persistent Auth State with localStorage
+- How to use localStorage.
+- Go to Chrome Browser Dev Tools and go to the `Application` from `>>`
+- Right there, you'll find `Local Storage`
+- Expand it and click on the domain (localhost in this case) and you'll see the localStorage data fields you set there. Key and values. 
+- Wow, you got introduced to the Local Storage.
+- Although, the app has an error someone in the `if and else` statement, you should understand what `Local Storage` does.
+- It allows us to store some things in the browser so that we can get it immediately and use it.
+- In this case, when we refresh the page, we're asked to sign in again which can be a pain in the ass.
+- Instead we have a token that's saved somewhere and which expires at some time.
+- If the token is expired, we're then asked to sign in again.
+- So, this is what the token is all about. We can easily retrieve it from localStorage if we store it there.
+- Now I understand how all these works.
+- Wow, this is becoming clearer and clearer with each passing lecture. 
