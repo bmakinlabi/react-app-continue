@@ -1,3 +1,3 @@
-# 332. Updating the UI Depending on Auth State
-- Created the `Logout` on the navigation.
-- And now we're going to create the logout component. 
+# 333. Adding a Logout Link
+- Wow. App is working perfectly
+- When we click logout, we're redirected to the home page.
