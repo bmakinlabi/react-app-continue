@@ -1,14 +1,9 @@
-# 336. Persistent Auth State with localStorage
-- How to use localStorage.
-- Go to Chrome Browser Dev Tools and go to the `Application` from `>>`
-- Right there, you'll find `Local Storage`
-- Expand it and click on the domain (localhost in this case) and you'll see the localStorage data fields you set there. Key and values. 
-- Wow, you got introduced to the Local Storage.
-- Although, the app has an error someone in the `if and else` statement, you should understand what `Local Storage` does.
-- It allows us to store some things in the browser so that we can get it immediately and use it.
-- In this case, when we refresh the page, we're asked to sign in again which can be a pain in the ass.
-- Instead we have a token that's saved somewhere and which expires at some time.
-- If the token is expired, we're then asked to sign in again.
-- So, this is what the token is all about. We can easily retrieve it from localStorage if we store it there.
-- Now I understand how all these works.
-- Wow, this is becoming clearer and clearer with each passing lecture. 
+# 337. Fixing Connect + Routing Errors
+- If you're having problems using connect on a higher order component like this because the props aren't being passed down, you can use `withRouter` and wrap everything with it.
+- How to debug your React app to know where there're problems. Using the Chrome Dev tools, go into `Sources` and go into your folder there where your application is.
+- And then you can place a breakpoint on the place the problem might be.
+- After doing that, use the app normally (like in this case, input your email and password).
+- Then reload the page. We'll know get stuck where the breakpoint is.
+- It works fine. 
+- Then move to the next place you think there might be a problem and place the breakpoint there too. 
+- Somehow, the instructor was able to debug the app and find the mistakes using debugging in Chrome. That's something I need to learn about in the future.
