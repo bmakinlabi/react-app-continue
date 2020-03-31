@@ -1,9 +1,7 @@
-# 337. Fixing Connect + Routing Errors
-- If you're having problems using connect on a higher order component like this because the props aren't being passed down, you can use `withRouter` and wrap everything with it.
-- How to debug your React app to know where there're problems. Using the Chrome Dev tools, go into `Sources` and go into your folder there where your application is.
-- And then you can place a breakpoint on the place the problem might be.
-- After doing that, use the app normally (like in this case, input your email and password).
-- Then reload the page. We'll know get stuck where the breakpoint is.
-- It works fine. 
-- Then move to the next place you think there might be a problem and place the breakpoint there too. 
-- Somehow, the instructor was able to debug the app and find the mistakes using debugging in Chrome. That's something I need to learn about in the future.
+# 338. Ensuring App Security
+- For security reasons, it's better to find a better solution. An alternative to storing tokens in the `localStorage`
+- Someone might steal your token and use it to login in into your account
+- The best idea though is to store get a refreshToken and store it somewhere. Firebase provides a `refreshToken`
+- You can use your refreshToken (send it to Firebase), and you'll get an idToken. That's better. 
+- The instructor isn't using that too because it's not perfect. He just wanted to bring it to my attention. 
+- No code here. It's best I learn about the best security for your website or web applications. I should store that in my to-do list. 
