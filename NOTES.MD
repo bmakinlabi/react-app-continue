@@ -1,4 +1,5 @@
-# 376. Creating the Basic React Application
-- Note that we're just imply copying and pasting the `asyncComponent` code that we've written earlier and reusing it, since it's always the same thing.
-- It works the same way. 
-- Wow, as you can see, we quickly set up our React app. There's more to do.
+# 377. Installing Production Dependencies
+- Let's set up.
+- Time to finally install React and others. 
+- `npm install --save react react-dom react-router-dom`
+- We've installed. Now let's work on actual Webpack set up so that our build too can do it's job. 
