@@ -1,7 +1,10 @@
-# 358. Jest and Enzyme Documentations
-- You can use Jest in any JavaScript project.
-- Go and read the documentations of Jest and Enzyme.
-- This video made me realize that it's very important to check out the Documentation. It's where you learn everything you need to know about a particular technology.
-- Now, I'm a big fan of technologies.
-- After learning a bit about them in videos, it's also important that I visit the documentation and pay attention to every little thing there.
-- Wow, I'm  really learning this thing. 
+# 359. Testing Components Correctly
+- Writing good test is complicated. It's easy to write 100 tests for a given components.
+- On the other hand, you may need only one test to see that a component is working correctly.
+- Write a lot of tests to learn. Write a lot of tests for different components.
+- Test for different things
+- Learn how to use different functions from Jest and Enzyme
+- Look at the crucial things and test them.
+- For work, test the key things. 
+- Your test code also changes when you touch your main file (the component file). Your tests could fail and you see what's happening.
+- Think about what could easily break in your component and app and write a test code for exactly that. 
