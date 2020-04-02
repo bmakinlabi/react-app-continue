@@ -1,13 +1,5 @@
-# 356. Writing our First Test
-- Back to the Burger Builder app.
-- Quit the running app with `control + C`
-- Jest is already installed if you're using `create-react-app` if not then you have to install it by yourself.
-- Jest was already installed
-- Go ahead and follow the instructor
-- `npm install --save enzyme react-test-renderer enzyme-adapter-react-16`
-- As you can see we just installed 3 packages there that are needed. 
-- After setting up your unit test, you can go to the `package.json` file and scroll down to the `scripts`. There, you'll find the test scripts.
-- `npm run test` or just `npm test`
-- If you get a blocking error at this point, delete the `App.test.js` file and run it again.
-- Wow, the test passed. It works. I should probably watch this video again and again to learn more about testing.
-- However, I'm still going to learn about `Jest` and `Enzyme` separately on their docs as expected to really learn a lot about them.
+# 357. Testing Components Continued
+- Learned about `beforeEach()` and `afterEach()`
+- Of course, more to learn in the Jest and Enzyme documentations.
+- Wow, this Jest and Enzyme testing is really cool. It means I'll make less mistakes in my apps.
+- I'm really looking forward to writing a lot of React apps in the future.
