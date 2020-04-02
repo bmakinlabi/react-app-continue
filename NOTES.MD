@@ -1,11 +1,7 @@
-# 348. Removing console.log()s
-- Well, the instructor checked the console.log and there was an error that's been showing since during the lectures.
-- The instructor removed an unused var that was declared and not used.
-- I'd removed mine since and the instructor is just doing the same thing here.
-- It's a good idea to remove everything in the console.log
-- We use this to build our app and monitor things where they might be a mistake. 
-- But once we're done, it's a good idea to remove all of them.
-- I guess so that people won't see it.
-- Wow, we removed all the `console.log`s that we have in the app. That's cool. It's looking better. Make sure that you don't leave them.
-- Removing them is easy. Just type `console` into the file after you want to remove it.
-- You can find the console.log from using the app and you'll be seeing it all over the place.  
+# 349. Adding Lazy Loading
+- Here, I learned how lazy loading works.
+- Although we've done lazy loading before in this course. It's just for the instructor to remind me again how it works.
+- It's so powerful.
+- Now we don't download a component unless we need it. This makes our app faster.
+- If the app is small, you may not gain much from lazy loading.
+- Still, to me, this is something I will do all the time to show my clients that I know how lazy loading works and why they need to hire me to build React apps for them. 
