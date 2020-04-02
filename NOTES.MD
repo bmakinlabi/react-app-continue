@@ -1,5 +1,16 @@
-# 366. Building the Project
-- If you're serving from `example.com` for example then you don't need to set `basename` in the `BrowserRouter`
-- To build the project:
-- `npm run build`
-- It should generate a `build`.
+# 367. Example: Deploying on Firebase
+- We're using Firebase Hosting
+- `sudo npm install -g firebase-tools`
+- `firebase login`
+- `firebase init`
+- Scroll to `Hosting` and press the `space` key to select it. 
+- Enter `build` as the directory
+- Yes to the single page question
+- To the `File/build already exists. Overwrite?` The answer is no. 
+- Now, you should see a new file which is the `firebaserc`
+- It contains information about the project.
+- Then go to `firebase.json` is where it does a lot of things like rewrite the URL. 
+- `firebase deploy`
+- And the URL of the Burger Builder is `https://react-my-burger-6c464.web.app`
+- Wow.
+- No matter the host you choose, the steps to deploying never changes. Deploying is the easiest thing. I've worked hard on this app. So deploying shouldn't be a problem at all.
