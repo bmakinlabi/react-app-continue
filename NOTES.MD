@@ -1,4 +1,9 @@
-# 379. Adding File Rules & Babel
-- We want to make webpack understand next-gen JavaScript.
-- `npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @babel/preset-stage-2 babel-loader @babel/plugin-proposal-class-properties`
-- We're still not done. Should learn about Babel. 
+# 380. Loading CSS Files
+- `npm install --save-dev style-loader css-loader`
+- css-loader analyzes css imports
+- style-loader takes all the css folders it finds and injects them into a html page.
+- `npm install --save-dev postcss-loader`
+- postcss-loader makes our css code work in older browsers. 
+- `npm install --save-dev autoprefixer`
+- We also need to tweak the `package.json` file.
+- We're also not done. We need to support images too. 
