@@ -1,7 +1,11 @@
-# 347. Using Environment Variables
-- You can make it difficult for people to access your state. To see what you have in there. 
-- Note that the `NODE_ENV` is inside the config folder in the `env.js` file. there.
-- The `process.env` is a global variable that makes it easy for us to access that variable.
-- We don't want anyone to see our Redux state and see how our app is built. We want to make it difficult for them.
-- Redux DevTools would now only be available in the development environment.
-- 
+# 348. Removing console.log()s
+- Well, the instructor checked the console.log and there was an error that's been showing since during the lectures.
+- The instructor removed an unused var that was declared and not used.
+- I'd removed mine since and the instructor is just doing the same thing here.
+- It's a good idea to remove everything in the console.log
+- We use this to build our app and monitor things where they might be a mistake. 
+- But once we're done, it's a good idea to remove all of them.
+- I guess so that people won't see it.
+- Wow, we removed all the `console.log`s that we have in the app. That's cool. It's looking better. Make sure that you don't leave them.
+- Removing them is easy. Just type `console` into the file after you want to remove it.
+- You can find the console.log from using the app and you'll be seeing it all over the place.  
