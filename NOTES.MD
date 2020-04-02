@@ -1,4 +1,6 @@
-# 361. How to Test Redux
-- You have to be careful when testing Redux
-- Test reducers. Only them. Don't actions.
-- Very simple to test Redux. 
+# 362. Wrap Up
+- Dive deeper if you want to learn more about testing.
+- Don't test unnecessary stuff
+- Don't test everything
+- Test the key things you need to test.
+- It's redundant. Just need that something works correctly.
