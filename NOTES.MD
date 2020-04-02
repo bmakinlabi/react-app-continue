@@ -1,6 +1,8 @@
-# 362. Wrap Up
-- Dive deeper if you want to learn more about testing.
-- Don't test unnecessary stuff
-- Don't test everything
-- Test the key things you need to test.
-- It's redundant. Just need that something works correctly.
+# Useful Resources & Links
+
+    Enzyme API: http://airbnb.io/enzyme/docs/api/
+    Jest Docs: https://facebook.github.io/jest/
+
+Resources for this lecture
+
+    testing--01-finished.zip
