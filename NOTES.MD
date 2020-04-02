@@ -1,13 +1,6 @@
-# 353. What is Testing?
-- Testing doesn't mean we test our application manually. We should continue to do that though. We do that already and we should continue.
--  Testing means we write automated tests.
-- Here are the steps:
-    1. Build app
-    2. Test manually in Browser
-    3. Automatic tests
-    4. Ship app to server
-- When we later change anything in our code, we'll quickly find that through testing before we even check the browser. Something we break immediately. The testing tells us that.
-- Don't add test later. Instead do TDD (test driven development)
-- You write the test before you write any application code.
-- We're not doing that now.
-- We just want to do unit test and you can build on the knowledge yourself. 
+# 354. Required Testing Tools
+- We need two tools to write great React test:
+    1. Test runner - executes tests and provides validation library. --- Jest is a test runner and already installed with Create React App
+    2. You need to emulate those components. Something like using a virtual DOM. 
+    3. Testing utilities - it simulates everything - You could use `React Test Utils`, but you should use `Enzyme`. It's way more popular.
+    - Keep these two tools in mind. They're the ones you need to learn to know everything testing in React. 
