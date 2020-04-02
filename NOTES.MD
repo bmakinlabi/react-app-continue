@@ -1,6 +1,5 @@
-# 374. Project & npm Setup
-- Setting up a new project with its `.gitignore` file.
-- `npm init`
-- Instructor talks about `--dev` for dev dependencies that isn't related to the actual final code. Isn't needed on the front-end. It doesn't matter that we've not been using it since the beginning of the course.
-- `npm install --save-dev webpack webpack-dev-server`
-- Webpack installed
+# 375. Creating a Basic Folder & File Structure
+- We want to create something very similar that `create-react-app` does for us.
+- We're setting up our folders in the React app.
+- Remember that these are the things `create-react-app` automatically generates for us.
+- The structures and folders are coming along nicely. 
