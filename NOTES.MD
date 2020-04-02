@@ -1,10 +1,13 @@
-# 355. What To Test?
-- You don't want to test the library, React, or Redux. These are already tested by the developers who created.
-- You want to test the code you add to your application
-- You also want to test the code that doesn't use those libraries you've added. 
-- If you're using axios for example, you don't have to test axios. You do want to fake test how you use the data that you're getting.
-- Don't test complex connections within your app. Don't test too much of a component that affects several other components and test those too.
-- You do want to make those simple tests inside the components itself and see what it gives out or what happens when a button is clicked for example. YOu don't want to test if other components change when you click one button in a component. That'll be too complex.
-- You can read some testing guides.
-- Test isolated units!!
-- Do test conditional outputs
+# 356. Writing our First Test
+- Back to the Burger Builder app.
+- Quit the running app with `control + C`
+- Jest is already installed if you're using `create-react-app` if not then you have to install it by yourself.
+- Jest was already installed
+- Go ahead and follow the instructor
+- `npm install --save enzyme react-test-renderer enzyme-adapter-react-16`
+- As you can see we just installed 3 packages there that are needed. 
+- After setting up your unit test, you can go to the `package.json` file and scroll down to the `scripts`. There, you'll find the test scripts.
+- `npm run test` or just `npm test`
+- If you get a blocking error at this point, delete the `App.test.js` file and run it again.
+- Wow, the test passed. It works. I should probably watch this video again and again to learn more about testing.
+- However, I'm still going to learn about `Jest` and `Enzyme` separately on their docs as expected to really learn a lot about them.
