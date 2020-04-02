@@ -1,5 +1,4 @@
-# 375. Creating a Basic Folder & File Structure
-- We want to create something very similar that `create-react-app` does for us.
-- We're setting up our folders in the React app.
-- Remember that these are the things `create-react-app` automatically generates for us.
-- The structures and folders are coming along nicely. 
+# 376. Creating the Basic React Application
+- Note that we're just imply copying and pasting the `asyncComponent` code that we've written earlier and reusing it, since it's always the same thing.
+- It works the same way. 
+- Wow, as you can see, we quickly set up our React app. There's more to do.
