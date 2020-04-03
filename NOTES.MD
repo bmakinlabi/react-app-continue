@@ -1,7 +1,8 @@
-# 392. A Special Lifecycle Hook
-- Instructor wants to show us a lifecycle hook that is available in both class-based and functional components. Next is really amazing.
-- The lifecycle is `getInitialProps`
-- It can be called without the component being instatiated yet and it's async which means it doesnt return immediately.
-- You can use it to prepopulate your app with some props before it even loads. Wow. Really.
-- You can initialize your props before the page is actually loaded. It seems good. Might use it as a replacement for state or redux. I think they were trying to take those two alternatives out by introducing their own.
-- Seems like a good option to me. 
+# 393. Deploying our App
+- You can always visit the official page to learn more about this amazing technology.
+- Run `npm run build` to build the project. 
+- You'll deploy the entire project to your host. You need a hosting service that's able to run Node.JS
+- Once you've uploaded your project to the host, all you have to do next is run `npm run start`
+- Everything is work.
+- If you now run npm start, you're good.
+- Go to the official repo to learn more. 
