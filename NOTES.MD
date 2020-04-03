@@ -1,11 +1,32 @@
-# 382. Production Workflow & Wrap Up
-- To build for production, copy the `webpack.config.js` file and then rename it to `webpack.config.prod.js`
-- Switch the `mode` from development to `production`
-- Change `devtool` to `none`
-- Add this to the scripts in `package.json` - `"build:prod": "webpack --config webpack.config.prod.js"`
-- `npm run build:prod`
-- Now the `dist` folder is available. 
-- Now, that's what we can now deploy.
-- We need to learn a lot about this app.
-- The official documentation is where to get everything to learn webpack
-- I strongly recommend `create-react-app` because it takes out all the time you have to spend configuring webpack.
+# Adding babel-polyfill
+
+**I did this and generated errors. So I discarded it. I need to learn Webpack and Babel to really understand what happens behind the scenes.***
+
+The current setup won't support all browsers theoretically supported by React. Features like Promises and Object.assign()  are missing in older browsers - especially in IE of course.
+
+If you need to support these browsers, you need to add a polyfill (a package which provides these features for older browsers).
+
+The Babel docs explain how you can take advantage of Babel's built-in "Polyfill auto injecting" feature: https://babeljs.io/docs/en/babel-polyfill
+
+Simply install two packages:
+
+npm install --save core-js
+
+and
+
+npm install --save regenerator-runtime 
+
+Change the config of your @babel/preset-env  babel preset in the .babelrc  file: 
+
+    "presets": [
+        ["@babel/preset-env", {
+            "targets": {
+                "browsers": [
+                    "> 1%",
+                    "last 2 versions"
+                ]
+            },
+            "useBuiltIns": "usage"
+         }],
+        ...
+     ],
