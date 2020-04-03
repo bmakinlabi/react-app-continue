@@ -1,4 +1,3 @@
-# 390. Styling our App in Next.js
-- NextJs has its own way of styling.
-- Note that `<style jsx>` allows you to write your style in your `jsx` code.
-- How we style components in NextJS. It's so cool and easy. 
+# 391. Handling (404) Errors
+- How to handle 404 errors in NextJS. This is something you can learn in the docs.
+- After setting the error page up, make sure you restart `npm run dev`
