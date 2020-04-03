@@ -1,10 +1,11 @@
-# 381. Loading Images & Injecting into HTML Page
-- We need to support images too.
-- `npm install --save-dev url-loader`
-- It helps us load assets into our code so that we can use them in our url. 
-- `npm install --save-dev html-webpack-plugin`
-- `npm install --save-dev file-loader`
-- I spent the whole night on this thing to make it work. It's now available on `http://localhost:8080/`
-- I really need to get into Webpack to learn how it works. I went through a lot here even while watching the instructor.
-- I can't say I know anything about it at this stage.
-- I need to get into the whole thing with the instructor.
+# 382. Production Workflow & Wrap Up
+- To build for production, copy the `webpack.config.js` file and then rename it to `webpack.config.prod.js`
+- Switch the `mode` from development to `production`
+- Change `devtool` to `none`
+- Add this to the scripts in `package.json` - `"build:prod": "webpack --config webpack.config.prod.js"`
+- `npm run build:prod`
+- Now the `dist` folder is available. 
+- Now, that's what we can now deploy.
+- We need to learn a lot about this app.
+- The official documentation is where to get everything to learn webpack
+- I strongly recommend `create-react-app` because it takes out all the time you have to spend configuring webpack.
