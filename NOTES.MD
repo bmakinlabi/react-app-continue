@@ -1,5 +1,3 @@
-# Useful Resources & Links
-
-    Next.js Repo & Docs: https://github.com/zeit/next.js/
-
-Resources for this lecture
+# 395. Module Introduction
+- Animation in React Apps
+- Animations are important
