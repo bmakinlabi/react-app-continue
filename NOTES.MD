@@ -1,2 +1,3 @@
-# 406. Customizing CSS Classnames
-- More flexibility here. We can do it this way too and it works perfectly. 
+# 407. Animating Lists
+- The `TransitionGroup` helps us animate list. It's really cool.
+- I've fallen in love with this package.
