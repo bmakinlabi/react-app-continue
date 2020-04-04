@@ -1,3 +1,2 @@
-# 395. Module Introduction
-- Animation in React Apps
-- Animations are important
+# 396. Preparing the Demo Project (Initial Commit)
+- Initial commit for this module. 
