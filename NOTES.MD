@@ -1,2 +1,4 @@
-# 420. Moving the Orders Side Effects into Sagas
-- Wow, we moved the last order side effects to the right file. We're now fully using Redux Saga
+# 421. Why Sagas can be Helpful
+- The advantage is that our action creator files are all very lean. That's it. Not necessary better or bad.
+- They now only create action. They don't run any other code, which is kind of cool.
+- All our side effects code, (code that are not related to actions or reducers are now in our sagas).
