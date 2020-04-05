@@ -1,7 +1,3 @@
-# Useful Resources & Links
-
-    More on CSS Transitions: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
-    More on CSS Animations: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
-    More on ReactTransitionGroup: https://github.com/reactjs/react-transition-group
-    Alternative => React Motion: https://github.com/chenglou/react-motion
-    Alternative => React Move: https://github.com/react-tools/
+# 411. Module Introduction
+- An alternative to Redux-thunk (not better or worse)
+- It's `Redux Saga`
