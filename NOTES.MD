@@ -1,4 +1,4 @@
-# 414. Hooking the Saga Up (to the Store and Actions)
-- We've hooked up our Saga to the store and actions. But it runs all the time like this.
-- We'll want to logout when we want to. Not run all the time.
-- Let's see how we can do that in the next lecture. 
+# 415. Moving Logic from the Action Creator to a Saga
+- Wow we just used Saga. And it looks pretty cool to use. I'm looking forward to using it.
+- In the next lecture we'll replace all the action code in our Action Creators with Redux Saga.
+- Let's start. 
