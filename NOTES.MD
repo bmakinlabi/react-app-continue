@@ -1,3 +1,2 @@
-# 417. Handling Authentication with a Saga
-- We're still using the Redux Saga and it's amazing.
-- What we did here is much more complex. I believe it teaches me some things on JavaScript. 
+# 418. Handling Auto-Sign-In with a Saga
+- Wow, we're moving more code into Saga. Just removed the last side-effect code in the actions/auth file to the saga. 
