@@ -1,3 +1,5 @@
-# 411. Module Introduction
-- An alternative to Redux-thunk (not better or worse)
-- It's `Redux Saga`
+# 412. Installing Redux Saga
+- Back to the Burger app
+- `npm install --save redux-saga`
+- `npm start`
+- We installed Redux Saga
