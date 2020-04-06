@@ -1,5 +1,24 @@
-# 441. Loading Errors & State Batching
-- Wow I learned the shortcut for the ternary operator and it's cool.
-- The `&&` signs means what's on the right will only gets rendered if what's given on the left side is true.
-- Because `fetch` is a promise, we can handle an error by adding catch to the end of the `then` block.
-- If you have two states in the same function for example, React will run them together synchronously. It means that the first one won't causes re-render and the other one will cause it's own separate render. No. They'll both run together. Just for you to keep this in mind. 
+# More on State Batching & State Updates
+
+React batches state updates - see: https://github.com/facebook/react/issues/10231#issuecomment-316644950
+
+That simply means that calling
+
+    setName('Max');
+    setAge(30);
+
+in the same synchronous (!) execution cycle (e.g. in the same function) will NOT trigger two component re-render cycles.
+
+Instead, the component will only re-render once and both state updates will be applied simultaneously.
+
+Not directly related, but also sometimes misunderstood, is when the new state value is available.
+
+Consider this code:
+
+    console.log(name); // prints name state, e.g. 'Manu'
+    setName('Max');
+    console.log(name); // ??? what gets printed? 'Max'?
+
+You could think that accessing the name state after setName('Max'); should yield the new value (e.g. 'Max') but this is NOT the case. Keep in mind, that the new state value is only available in the next component render cycle (which gets scheduled by calling setName()).
+
+Both concepts (batching and when new state is available) behave in the same way for both functional components with hooks as well as class-based components with this.setState()!
