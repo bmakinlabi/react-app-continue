@@ -1,3 +1,5 @@
-# 432. Passing State Data Across Components
-- We passed the empty function on `onRemoveItem` so that it can work.
-- Now the app works here. We can add ingredients. 
+# 433. Sending Http Requests
+- Creating a new Firebase project
+- Created Real Time Database
+- We're using the `Fetch()` API for getting data instead of `Axios` just to mix things up.
+- We fetch ingredients. 
