@@ -1,16 +1,3 @@
-# 434. useEffect() & Loading Data
-- useEffect() gets executed after every time the component re-render cycle.
-- After the first render and every re-render.
-- Be careful with infinite loop. Note that useEffect() get executed after every re-render, which means if you call a function that re-renders, `useEffect()` will continue to render. It won't stop.
-- You can check the network tab and see if the network continue to reload or load new things. 
-- **Keep this in mind as you use useEffect.**
-- It doesn't matter if it's inside or outside the `useEffect()` loop. It'll continue to get executed after every re-render. 
-- Used like this, `useEffect()` acts like `componentDidUpdate()` It runs the function after every component update (re-render).
-- `useEffect()` takes a second argument. An array.
-- The array contains the dependencies of the function. Only when the dependency change will the function re-run. This allows you to control how often the `useEffect()` function runs.
-- In the array, you don't have to include the function that changes state like `setUserIngredients`. React knows that automatically. That's the only exception here. 
-- If the `useEffect()` function has no dependecies internal the function or outside (in the component function), then you should add an empty array.
-- Removing the array isn't an option. 
-- When you use the empty `[]`, `useEffect()` acts like `componentDidMount`. It runs only once (after the first render. )
-- Wow, `useEffect` is really  cool. I like it. 
-- 
+# 435. Understanding useEffect() Dependencies
+- You can have as many `useEffect()` as you want just like `useState`
+- That's how to ask it to run only when its dependencies changed. 
