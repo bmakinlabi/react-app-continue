@@ -1,2 +1,11 @@
-# 437. What's useCallback()? (Initial Commit)
-- The author had added some codes that weren't included in the video. Part of those things that they do. Very annoying. The code must have been frustrating me.
+# 437. What's useCallback()? (last commit and this together)
+- Combine the last commit and this one together
+- I corrected one last mistake from firebase url. 
+- We were having re-rendering and it's causing functions inside the `ingredient.js` file to be created again and it continue to have an infinite loop. We have to prevent that. 
+- We're using the `useCallback()` to prevent the function where we used it from getting re-created so that it won't cause a re-render. That's what it does. We wrap `filteredIngredientsHandler` with `useCallback()` inside `ingredients.js` file. 
+- We can pass another argument `array` to the `useCallback()` function. That's where we specify our dependencies. The reason why this is empty is because it's `setUserIngredient` which is from the state. This is the unique case as specified earlier.
+- If it's not it, we'll have to specify it here. 
+- Here, we're sending request for every keystroke.
+- We were making three different request on render so we had to remove one fetch in `ingredient.js`
+- I don't know when the instructor added the `removeIngredientHandler` code but I put that there. 
+- We had to remove one `fetch` request because we were having two requests sent and console.logged. 
