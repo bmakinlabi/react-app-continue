@@ -1,24 +1,6 @@
-# More on State Batching & State Updates
-
-React batches state updates - see: https://github.com/facebook/react/issues/10231#issuecomment-316644950
-
-That simply means that calling
-
-    setName('Max');
-    setAge(30);
-
-in the same synchronous (!) execution cycle (e.g. in the same function) will NOT trigger two component re-render cycles.
-
-Instead, the component will only re-render once and both state updates will be applied simultaneously.
-
-Not directly related, but also sometimes misunderstood, is when the new state value is available.
-
-Consider this code:
-
-    console.log(name); // prints name state, e.g. 'Manu'
-    setName('Max');
-    console.log(name); // ??? what gets printed? 'Max'?
-
-You could think that accessing the name state after setName('Max'); should yield the new value (e.g. 'Max') but this is NOT the case. Keep in mind, that the new state value is only available in the next component render cycle (which gets scheduled by calling setName()).
-
-Both concepts (batching and when new state is available) behave in the same way for both functional components with hooks as well as class-based components with this.setState()!
+# 443. Understanding useReducer()
+- **Whilst the concept of reducer functions is similar, useReducer() has absolutely no connection to the Redux library!**
+- We can use `useReducer` to update states. It can update multiple states together. Let's see how it works.
+- Looking at the `useReducer` here. You can see that the first argument is the function. The second argument is the initial state. In this case the initial case is an empty array. The second argument is a dispatch function. It's not a setting function. it's a dispatch. We're doing the setting in our `ingredientReducer` function. 
+- When working with `useReducer()`, React will re-render the component whenever your reducer returns the new state. 
+- `useReducer` is really interesting. I might want to use it. But how do I decide when to use it. It really looks cool to me. and I've really liked it.
