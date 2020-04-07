@@ -1,4 +1,4 @@
-# 448. Sharing Data Between Custom Hooks & Components
-- **Note inside the lecture**: To be clear: sendRequest(which is a function returned by useHttp()) sends a request when called - NOT useHttp() itself!
-- Wow, a lot of programming. I think it's about connecting things together. Like building something. We built a hook that's reusable for different purposes. That's the goal here. To ensure that our hook can be re-used multiple times.
-- Before now, I've came across functions that look similar. They have just a few different things that makes them different from each other. Now something like this is closer to that. 
+# 449. Using the Custom Hook
+- We removed all the commented out code. 
+- Wow, we're using the custom hook again in the search component. 
+- This is the benefit of having a custom hook. You won't have to write similar code again and again. It's so cool. 
