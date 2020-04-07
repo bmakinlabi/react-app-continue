@@ -1,6 +1,4 @@
-# 447. Getting Started with Custom Hooks
-- You can build your own Hooks.
-- Your own Hook should always be named `use` something.
-- In the Hook, we don't have to import `React` itself because we're not rendering a component. We just want to use some features from the React package.  In this case, `useReducer`
-- We're not done yet. 
-- As you can see, we have our Hook for managing http request and we're still working on everything. Move on to the next lecture.
+# 448. Sharing Data Between Custom Hooks & Components
+- **Note inside the lecture**: To be clear: sendRequest(which is a function returned by useHttp()) sends a request when called - NOT useHttp() itself!
+- Wow, a lot of programming. I think it's about connecting things together. Like building something. We built a hook that's reusable for different purposes. That's the goal here. To ensure that our hook can be re-used multiple times.
+- Before now, I've came across functions that look similar. They have just a few different things that makes them different from each other. Now something like this is closer to that. 
