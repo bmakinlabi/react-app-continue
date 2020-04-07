@@ -1,13 +1,6 @@
-# 446. Performance Optimizations with useMemo()
-- Let's see how we can optimize our project. How we can avoid unnecessary re-render cycles.
-- If a component depends on a component that re-renders when something happens, it'll re-render too even if it uses `React.memo`
-- You can always include a `console.log` to confirm if a component is rendering. There, you'll see if it's re-rendering when it shouldn't.
-- What you do is simple, simply wrap the function that is causing the re-rendering with `useCallback` That means
-- Note that we have to specify its dependencies in the array.
-- In this case, the `dispatchHttp` is from `useReducer` which like `useState`, React will take care of it for us. We don't need to specify.
-- The `loading` is always touched so it causes the `ingredientForm.js` to re-render because it uses `loading`
-- The alternative of `React.memo` is `useMemo`
-- `useMemo` ensures no value is recreated
-- If we're talking about storing React components, you maybe want to use React.Memo instead of `useMemo`
-- But with `useMemo` you want to store any data you don't want to recreate when it re-renders.
-- It's not the end of the world if you don't use it. But it's important you to improve performance. 
+# 447. Getting Started with Custom Hooks
+- You can build your own Hooks.
+- Your own Hook should always be named `use` something.
+- In the Hook, we don't have to import `React` itself because we're not rendering a component. We just want to use some features from the React package.  In this case, `useReducer`
+- We're not done yet. 
+- As you can see, we have our Hook for managing http request and we're still working on everything. Move on to the next lecture.
