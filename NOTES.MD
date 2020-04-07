@@ -1,6 +1,6 @@
-# 444. Using useReducer() for the Http State
-- Using a `useReducer` is often cleaner than using a `useState()`
-- The instructor clearly likes the idea of using the `useReducer()`
-- Wow. using `useReducer` is so much easier if I can get my head around it.
-- It's a great alternative to `useState()` if you have much lots of state.
-- It's also the choice if multiple states work together. You can manage them in one place and update them correctly. 
+# 445. Working with useContext()
+- Your context component should always start with a capital letter.
+- Use `useState()` if it's a simple state. 
+- Wow, the way we used the context provider here, you can listen to the context anywhere in the app.
+- If you've forgotten what `context` is and how you can use it, check section 7 ("Diving Deeper into Components"). It's covered there!
+- Now, I really understand how this `useContext` works. It looks really simple here. Wow. It's so cool. 
