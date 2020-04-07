@@ -1,6 +1,13 @@
-# 445. Working with useContext()
-- Your context component should always start with a capital letter.
-- Use `useState()` if it's a simple state. 
-- Wow, the way we used the context provider here, you can listen to the context anywhere in the app.
-- If you've forgotten what `context` is and how you can use it, check section 7 ("Diving Deeper into Components"). It's covered there!
-- Now, I really understand how this `useContext` works. It looks really simple here. Wow. It's so cool. 
+# 446. Performance Optimizations with useMemo()
+- Let's see how we can optimize our project. How we can avoid unnecessary re-render cycles.
+- If a component depends on a component that re-renders when something happens, it'll re-render too even if it uses `React.memo`
+- You can always include a `console.log` to confirm if a component is rendering. There, you'll see if it's re-rendering when it shouldn't.
+- What you do is simple, simply wrap the function that is causing the re-rendering with `useCallback` That means
+- Note that we have to specify its dependencies in the array.
+- In this case, the `dispatchHttp` is from `useReducer` which like `useState`, React will take care of it for us. We don't need to specify.
+- The `loading` is always touched so it causes the `ingredientForm.js` to re-render because it uses `loading`
+- The alternative of `React.memo` is `useMemo`
+- `useMemo` ensures no value is recreated
+- If we're talking about storing React components, you maybe want to use React.Memo instead of `useMemo`
+- But with `useMemo` you want to store any data you don't want to recreate when it re-renders.
+- It's not the end of the world if you don't use it. But it's important you to improve performance. 
