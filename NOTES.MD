@@ -1,4 +1,3 @@
-# 474. Using the Custom Store
-- Hooray!!! We're now using our custom-Redux-like store. It's working.
-- It may be a little bit hard to wrap my head around it but it works. I may need to study it hard to understand how it really works.
-- But I'm sure it's just simple. Nothing complex there. 
+# 475. Custom Hook Store Summary
+- The instructor explained how we built our our Hook to replace Redux. Now we can manage state across the entire application. This is worth keeping in mind.
+- You may want to re-watch this video multiple times to learn how it really work once more again. 
