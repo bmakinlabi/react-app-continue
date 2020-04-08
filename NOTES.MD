@@ -1,4 +1,10 @@
-# 476. Optimizing the Custom Hook Store
-- We also added the false and true checks so that the component doesn't render unnecesarily. 
-- We're optimizing. Wow.
-- I can see the full power of custom hooks. They are so powerful. 
+# Bonus: Managing Multiple State Slices with the Custom Store Hook
+
+In this module, I show how to manage one slice (i.e. one kind of) state with the custom store hook.
+
+You can also use it to manage multiple, independent state slices though.
+
+Attached, you find an enhanced example where more than one state slice gets managed.
+Resources for this lecture
+
+    replace-redux-06-bonus-multiple-slices.zip
