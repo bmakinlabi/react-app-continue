@@ -1,3 +1,2 @@
-# 472. Finishing the Store Hook
-- We're setting up the store hook.
-- I really need to study this thing hard and understand the in-depth parts of JavaScript.
+# 473. Creating a Concrete Store
+- Well, we're still setting up our customer store. It's looking cool. We'll be using it in the next lecture.
