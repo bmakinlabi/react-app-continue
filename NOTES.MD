@@ -1,5 +1,7 @@
-# 462. Setting the right useEffect() Dependencies
-- When you pass an empty array to `useEffect()` the only time it'll run is when the component is mounted.
-- When you pass `props` as a dependency, it'll always  run when the component re-renders. As all `props` may keep changing.
-- Now, we can extract our function from props and specify it in the array for the `useEffect` It really looks cool.
-- I love it. I'll make sure I get all `props` this way. It's going to be easy.  
+# 463. Working with useSelector() and useDispatch()
+- Wow, we can use `useDispatch` Hook provided by `react-redux` to now call the functions without using props in front of them. The whole thing looks cleaner. 
+- We also got rid of mapstatetoprops and mapdispatchtoprops and we no longer need `connect`
+- I like this method. It seems cool.
+- But we had issue with `onInItIngredient` firing all the time inside that `useEffect` It's being executed all the time. 
+- We wrapped it with  `useCallback` to prevent this behavior. So it only runs once when the component mounts. 
+- Not it only runs once.
