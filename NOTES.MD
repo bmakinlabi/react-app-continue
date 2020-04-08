@@ -1,3 +1,4 @@
-# 469. Toggling Favorites with the Context API
-- Wow we're now using the Context API to replace Redux and it looks really cool. I think we can even do more.
-- We'll learn more about the downside of this approach in the next lecture.
+# 470. Context API Summary (and why NOT to use it instead of Redux)
+- The downside is clear: The Context API is made for low frequency updates. And not for high-frequency ones.
+- I don't think I'll use it at all.
+- There's a non-redux alternative and we'll look at that next. 
