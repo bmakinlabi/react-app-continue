@@ -1,5 +1,10 @@
-# 483. More Inspiration: Real-World Projects Built with React
-- Do the Google search: built with react
-- You'll find several different React projects. Example is Made with React  .com. The site is cool too for inspiration. 
-- You'll find the source code (GitHub) for the project.
-- Digging into other people's projects help you learn even more. 
+# 484. Static React Apps with Gatsby.js
+- GatsbyJS is actually a library built up on React. It's so cool.
+- It's just like Next.JS did.
+- Although, Gatsby serves a different purpose. 
+- It allows you to build static website (a site that uses just HTML and CSS).
+- No React Router or things like that. Instead you have a folder structure. 
+- You use it to build websites like in the 90's but in this case, you're using React. 
+- The library does most of the work for you.
+- You can learn more about it on https://www.gatsbyjs.org/
+- Start with the docs to learn how to use it.
