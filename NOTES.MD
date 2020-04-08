@@ -1,7 +1,6 @@
-# 486. Component Libraries (Example: Material UI)
-- It's a component library.
-- There're a lot of component libraries.
-- They give you prebuilt and pre-styled components
-- You won't have to build it on your own.
-- Bootstrap React is another. It takes the Bootstrap style and work nicely in React. 
-- Dive into Component libraries. 
+# 487. Smaller Apps with Preact
+- Preact is a lightweight alternative to React.
+- It has a leaner algorithm for managing things.
+- Google for Preact-cli
+- it's like `create-react-app`
+- The things you learned in this course are valid for it too. Most of them at least. 
