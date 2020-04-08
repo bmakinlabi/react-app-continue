@@ -1,3 +1,3 @@
-# 468. Alternative: Using the Context API
-- This approach is sometimes the right choice but not always.
--  Wow, we're now using Context API to display our products. 
+# 469. Toggling Favorites with the Context API
+- Wow we're now using the Context API to replace Redux and it looks really cool. I think we can even do more.
+- We'll learn more about the downside of this approach in the next lecture.
