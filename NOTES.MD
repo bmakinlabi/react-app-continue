@@ -1,4 +1,11 @@
-# 489. Congratulations
-- You have all the core fundamentals you need to become a successful React developer.
-- Practice Practice and Practice.
-- Build things with React. That's how you learn the most about it. 
+# Bonus: More Content!
+
+I got a lot of other high-quality & bestselling courses you might be interested in: https://academind.com/learn/our-courses/
+
+I'd love to welcome you on board of any of these courses! :-)
+
+Also don't forget to subscribe to my newsletter on https://academind.com/ to receive the latest updates and exclusive offers!
+
+And in case you didn't know: On the same page as well as on my YouTube channel I got loads of additional tutorials.
+
+Last but not least - I tweet on @maxedapps and on @academind_real, would love to see you there!
