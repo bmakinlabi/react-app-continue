@@ -1,6 +1,4 @@
-# 488. Comparing React with Preact
-- The differences
-- You can see the differences from the site
-- There's a page on the site. https://preactjs.com/guide/v8/differences-to-react/
-- It's pretty much the same. Just that there are tiny things.
-- There're very close in performance 
+# 489. Congratulations
+- You have all the core fundamentals you need to become a successful React developer.
+- Practice Practice and Practice.
+- Build things with React. That's how you learn the most about it. 
